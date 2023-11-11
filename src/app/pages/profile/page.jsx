@@ -15,9 +15,9 @@ const Page = () => {
 
   const [profile, setProfile] = useState({});
 
-  const [loading, setLoading] = useState();
+  const [loading, setLoading] = useState(false);
 
-  const [error, setError] = useState();
+  const [error, setError] = useState(false);
 
 
   const fetchUserProfile = async () => {
