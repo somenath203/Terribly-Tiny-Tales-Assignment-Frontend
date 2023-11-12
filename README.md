@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Terribly Tiny Tales Assignment Frontend
 
-## Getting Started
+## Contents
 
-First, run the development server:
+- [Introduction](#Introduction)
+- [About the Frontend Of the Project](#About-The-Frontend-Of-The-Project)
+- [About the Backend Of the Project](#About-The-Backend-Of-The-Project)
+- [Deployment](#Deployment)
+- [Links](#Links)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Introduction
+This is the assignment of Tiny Tales which renders a profile screen. The profile screen contains the following things:
+01) Full name of the user.
+02) The email-ID of the user.
+03) The profile picture of the user.
+04) The total number of likes on the user's profile.
+05) The total number of views on the user's profile.
+06) The total number of hearts on the user's profile.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The profile page is followed by another page which contains all the posts created by the user.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## About The Frontend Of The Project
+The project contains two parts i.e. frontend and backend. 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The project's frontend is built with Next.js v14.0.2 and styled with TailwindCSS. All icons of the project are taken from FontAwesome, and the tippy and toast notifications are handled by @tippyjs/react and React-Toastify, respectively.
 
-## Learn More
+The frontend contains two pages and three components. The two pages are Profile Page and the Posts Page. The Profile page containsd all the information about the user and the Post page contains all the post made by the user. The three compoonents used in the frontend of the project are ErrorPage, LaoderPage and Navbar. Navbar is the navigation bar of the project. Errorpage is the page which renders whenever there is an error and the LoaderPage renders when any information is been fetched from backend.
 
-To learn more about Next.js, take a look at the following resources:
+## About the Backend Of The Project
+The backend of the project is created with the help of ExpressJS. The backend API contains the JSON data which contains the whole information about the user i.e. the fullname of the user, the emailID of the user, the total number of likes on user's post, the total number of views on user's post and the total number of hearts on user's post and all the posts made by the user.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Here is the code of the Backend API: https://github.com/somenath203/Terribly-Tiny-Tales-Assignment-Backend
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
+The frontend of the project is deployed in Vercel and the backend is deployed on Render.
 
-## Deploy on Vercel
+## Links
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+01) Live Preview: https://terribly-tiny-tales-assignment-frontend.vercel.app/
+02) Deployed Backend API: https://terribly-tiny-tales-back.onrender.com/get-profile-of-user
+03) GItHub Repo of the Backend API: https://github.com/somenath203/Terribly-Tiny-Tales-Assignment-Backend
