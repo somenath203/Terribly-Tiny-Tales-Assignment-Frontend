@@ -32,7 +32,7 @@ The backend of the project is created with the help of ExpressJS. The backend AP
 #### Here is the code of the Backend API: https://github.com/somenath203/Terribly-Tiny-Tales-Assignment-Backend
 
 ## Deployment
-The frontend of the project is deployed in Vercel and the backend is deployed on Render.
+The frontend of the project is deployed on Vercel and the backend is deployed on Render.
 
 ## Links
 
