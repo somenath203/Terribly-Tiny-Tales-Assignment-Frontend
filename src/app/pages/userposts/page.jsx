@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import Link from 'next/navigation';
 import { toast } from 'react-toastify';
 import Tippy from '@tippyjs/react';
 
@@ -75,7 +75,7 @@ const Page = () => {
     return (
         <>
 
-            {loading && <LoaderPage />}
+            {loading && <LoaderPage pagename='Posts' />}
 
             {error && <ErrorPage />}
 

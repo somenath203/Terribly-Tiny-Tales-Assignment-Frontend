@@ -1,4 +1,4 @@
-const LoaderPage = () => {
+const LoaderPage = ({ pagename }) => {
     return (
         <div className="min-h-screen bg-gradient-to-b from-gray-200 to-violet-200 flex flex-col justify-center items-center text-center gap-10">
 
@@ -6,7 +6,7 @@ const LoaderPage = () => {
                 <i className="fa-regular fa-compass"></i>
             </p>
 
-            <p className="font-bold font-poppins text-center px-10 text-xl tracking-wider text-violet-700">Loading Profile Page...</p>
+            <p className="font-bold font-poppins text-center px-10 text-xl tracking-wider text-violet-700">Loading {pagename} Page...</p>
 
         </div>
     )

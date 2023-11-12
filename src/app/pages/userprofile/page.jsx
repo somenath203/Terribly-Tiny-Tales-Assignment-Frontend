@@ -4,12 +4,11 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { toast } from 'react-toastify';
 import Tippy from '@tippyjs/react';
+import Link from 'next/navigation';
 
 import LoaderPage from "../../components/LoaderPage";
 import ErrorPage from "../../components/ErrorPage";
 import Navbar from "../../components/Navbar";
-import Link from "next/link";
-
 
 const Page = () => {
 
@@ -75,7 +74,7 @@ const Page = () => {
   return (
     <>
 
-      {loading && <LoaderPage />}
+      {loading && <LoaderPage pagename='Profile' />}
 
       {error && <ErrorPage />}
 
