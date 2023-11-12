@@ -25,6 +25,8 @@ const Page = () => {
 
         try {
 
+            setLoading(true);
+
             const { data } = await axios.get(process.env.NEXT_PUBLIC_BACKEND_URL);
 
             setAllPosts(data?.profileOfUser?.posts);
