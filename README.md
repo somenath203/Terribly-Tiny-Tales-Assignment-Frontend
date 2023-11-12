@@ -7,7 +7,7 @@
 - [About the Backend Of the Project](#About-The-Backend-Of-The-Project)
 - [Deployment](#Deployment)
 - [Links](#Links)
-- [Demo Video Of The Whole Project](#Demo-Video-Of-The-Whole-Project)
+- [Demo Of The Whole Project](#Demo-Of-The-Whole-Project)
 
 ## Introduction
 This is the assignment of Tiny Tales which renders a profile screen. The profile screen contains the following things:
@@ -41,6 +41,6 @@ The frontend of the project is deployed in Vercel and the backend is deployed on
 02) Deployed Backend API: https://terribly-tiny-tales-back.onrender.com/get-profile-of-user
 03) GItHub Repo of the Backend API: https://github.com/somenath203/Terribly-Tiny-Tales-Assignment-Backend
 
-## Demo Video Of The Whole Project
+## Demo Of The Whole Project
 
 ![Demo of Project](./projectdemo.gif "Demo of Project")
