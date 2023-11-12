@@ -1,4 +1,4 @@
-import Profile from './pages/profile/page';
+import Profile from './pages/userprofile/page';
 
 
 const Page = () => {

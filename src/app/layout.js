@@ -8,7 +8,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Profile Page Assignment',
+  title: 'Profile and Posts Page Assignment',
   description: 'This is a website that renders a profile page of a user.',
 }
 
