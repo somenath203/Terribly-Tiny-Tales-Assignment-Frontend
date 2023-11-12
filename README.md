@@ -27,7 +27,7 @@ The project's frontend is built with Next.js v14.0.2 and styled with TailwindCSS
 The frontend contains two pages and three components. The two pages are Profile Page and the Posts Page. The Profile page containsd all the information about the user and the Post page contains all the post made by the user. The three compoonents used in the frontend of the project are ErrorPage, LaoderPage and Navbar. Navbar is the navigation bar of the project. Errorpage is the page which renders whenever there is an error and the LoaderPage renders when any information is been fetched from backend.
 
 ## About the Backend Of The Project
-The backend of the project is created with the help of ExpressJS. The backend API contains the JSON data which contains the whole information about the user i.e. the fullname of the user, the emailID of the user, the total number of likes on user's post, the total number of views on user's post and the total number of hearts on user's post and all the posts made by the user.
+The backend of the project is created with the help of ExpressJS. The backend API contains the JSON data which contains the whole information about the user i.e. the fullname of the user, the emailID of the user, the total number of likes on user's profile, the total number of views on user's profile and the total number of hearts on user's profile and all the posts made by the user.
 
 #### Here is the code of the Backend API: https://github.com/somenath203/Terribly-Tiny-Tales-Assignment-Backend
 
