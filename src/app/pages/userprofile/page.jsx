@@ -4,7 +4,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { toast } from 'react-toastify';
 import Tippy from '@tippyjs/react';
-import Link from 'next/navigation';
+import Link from 'next/link';
 
 import LoaderPage from "../../components/LoaderPage";
 import ErrorPage from "../../components/ErrorPage";

@@ -1,7 +1,7 @@
 'use client';
 
 import Tippy from '@tippyjs/react';
-import Link from 'next/navigation';
+import Link from 'next/link';
 
 const Navbar = () => {
     return (

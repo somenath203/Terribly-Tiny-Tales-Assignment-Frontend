@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Link from 'next/navigation';
+import Link from 'next/link';
 import { toast } from 'react-toastify';
 import Tippy from '@tippyjs/react';
 
