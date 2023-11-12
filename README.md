@@ -43,4 +43,4 @@ The frontend of the project is deployed in Vercel and the backend is deployed on
 
 ## Demo Video Of The Whole Project
 
-![Video](./projectdemo.mp4)
+![Demo of Project](./projectdemo.gif "Demo of Project")
