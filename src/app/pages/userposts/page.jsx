@@ -90,7 +90,7 @@ const Page = () => {
 
                     <p className="text-xl lg:text-2xl uppercase tracking-wider font-bold mt-20">Your Posts</p>
 
-                    <p className="text-base lg:text-lg capitalize font-bold font-poppins tracking-wider text-violet-800 mt-5 mb-4">Total Number of Posts: {totalNumberOfPosts}</p>
+                    <p className="text-base lg:text-lg capitalize font-bold font-poppins tracking-wider text-violet-800 mt-2 mb-3">Total Number of Posts: {totalNumberOfPosts}</p>
 
                     <div className="min-w-full flex flex-col gap-1 justify-center items-center">
                         {allPosts?.map((post) => (

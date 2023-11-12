@@ -122,7 +122,7 @@ const Page = () => {
           </div>
 
           <Link href='/pages/userposts'>
-            <button className="bg-violet-200 hover:bg-violet-300 shadow-lg hover:cursor-pointer duration-200 mt-8 mb-6 border-4 py-4 w-56 rounded-xl font-poppins tracking-widest uppercase text-xl font-bold text-violet-800 border-violet-800">All Posts</button>
+            <button className="bg-violet-200 hover:bg-violet-300 shadow-lg hover:cursor-pointer duration-200 mt-8 border-4 py-4 w-56 rounded-xl font-poppins tracking-widest uppercase text-xl font-bold text-violet-800 border-violet-800">All Posts</button>
           </Link>
 
         </div>
